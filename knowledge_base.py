@@ -2,7 +2,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 source = [
-"/Users/crystal/Desktop/CrystaL/Python/ASC2012-Cenk_Hoca_Makale.pdf"
+"Your_document_file_path"
 ]
 
 docs = [PyPDFLoader(url).load() for url in source]
